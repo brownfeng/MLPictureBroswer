@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20EB3204F5104DC7AFCA12D2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 510E70A100B2415395A9A185 /* libPods.a */; };
 		3673180C190C3DDD007F90AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3673180B190C3DDD007F90AC /* Foundation.framework */; };
 		3673180E190C3DDD007F90AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3673180D190C3DDD007F90AC /* CoreGraphics.framework */; };
 		36731810190C3DDD007F90AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3673180F190C3DDD007F90AC /* UIKit.framework */; };
@@ -21,6 +22,13 @@
 		3673182D190C3DDD007F90AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3673180F190C3DDD007F90AC /* UIKit.framework */; };
 		36731835190C3DDD007F90AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36731833190C3DDD007F90AC /* InfoPlist.strings */; };
 		36731837190C3DDD007F90AC /* MLPictureBroswerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36731836190C3DDD007F90AC /* MLPictureBroswerTests.m */; };
+		36731848190C3DEF007F90AC /* MLPicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 36731842190C3DEF007F90AC /* MLPicture.m */; };
+		36731849190C3DEF007F90AC /* MLPictureBroswer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 36731843190C3DEF007F90AC /* MLPictureBroswer.bundle */; };
+		3673184A190C3DEF007F90AC /* MLPictureBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 36731845190C3DEF007F90AC /* MLPictureBrowser.m */; };
+		3673184B190C3DEF007F90AC /* MLPictureBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36731847190C3DEF007F90AC /* MLPictureBrowserCell.m */; };
+		36731851190C3DF7007F90AC /* MLBroadcastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3673184E190C3DF7007F90AC /* MLBroadcastView.m */; };
+		36731852190C3DF7007F90AC /* MLBroadcastViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36731850190C3DF7007F90AC /* MLBroadcastViewCell.m */; };
+		36731855190C4125007F90AC /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = 36731854190C4125007F90AC /* UIImage+Tint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,21 @@
 		36731832190C3DDD007F90AC /* MLPictureBroswerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MLPictureBroswerTests-Info.plist"; sourceTree = "<group>"; };
 		36731834190C3DDD007F90AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		36731836190C3DDD007F90AC /* MLPictureBroswerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLPictureBroswerTests.m; sourceTree = "<group>"; };
+		36731841190C3DEF007F90AC /* MLPicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLPicture.h; sourceTree = "<group>"; };
+		36731842190C3DEF007F90AC /* MLPicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLPicture.m; sourceTree = "<group>"; };
+		36731843190C3DEF007F90AC /* MLPictureBroswer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MLPictureBroswer.bundle; sourceTree = "<group>"; };
+		36731844190C3DEF007F90AC /* MLPictureBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLPictureBrowser.h; sourceTree = "<group>"; };
+		36731845190C3DEF007F90AC /* MLPictureBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLPictureBrowser.m; sourceTree = "<group>"; };
+		36731846190C3DEF007F90AC /* MLPictureBrowserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLPictureBrowserCell.h; sourceTree = "<group>"; };
+		36731847190C3DEF007F90AC /* MLPictureBrowserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLPictureBrowserCell.m; sourceTree = "<group>"; };
+		3673184D190C3DF7007F90AC /* MLBroadcastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBroadcastView.h; sourceTree = "<group>"; };
+		3673184E190C3DF7007F90AC /* MLBroadcastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBroadcastView.m; sourceTree = "<group>"; };
+		3673184F190C3DF7007F90AC /* MLBroadcastViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLBroadcastViewCell.h; sourceTree = "<group>"; };
+		36731850190C3DF7007F90AC /* MLBroadcastViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLBroadcastViewCell.m; sourceTree = "<group>"; };
+		36731853190C4125007F90AC /* UIImage+Tint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tint.h"; sourceTree = "<group>"; };
+		36731854190C4125007F90AC /* UIImage+Tint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tint.m"; sourceTree = "<group>"; };
+		510E70A100B2415395A9A185 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C971941F8ADC4D388BDFB970 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +86,7 @@
 				3673180E190C3DDD007F90AC /* CoreGraphics.framework in Frameworks */,
 				36731810190C3DDD007F90AC /* UIKit.framework in Frameworks */,
 				3673180C190C3DDD007F90AC /* Foundation.framework in Frameworks */,
+				20EB3204F5104DC7AFCA12D2 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +110,7 @@
 				36731830190C3DDD007F90AC /* MLPictureBroswerTests */,
 				3673180A190C3DDD007F90AC /* Frameworks */,
 				36731809190C3DDD007F90AC /* Products */,
+				C971941F8ADC4D388BDFB970 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +130,7 @@
 				3673180D190C3DDD007F90AC /* CoreGraphics.framework */,
 				3673180F190C3DDD007F90AC /* UIKit.framework */,
 				3673182A190C3DDD007F90AC /* XCTest.framework */,
+				510E70A100B2415395A9A185 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,6 +138,8 @@
 		36731811190C3DDD007F90AC /* MLPictureBroswer */ = {
 			isa = PBXGroup;
 			children = (
+				3673184C190C3DF7007F90AC /* MLBroadcastView */,
+				36731840190C3DEF007F90AC /* MLPictureBroswer */,
 				3673181A190C3DDD007F90AC /* AppDelegate.h */,
 				3673181B190C3DDD007F90AC /* AppDelegate.m */,
 				3673181D190C3DDD007F90AC /* Main.storyboard */,
@@ -152,6 +180,33 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		36731840190C3DEF007F90AC /* MLPictureBroswer */ = {
+			isa = PBXGroup;
+			children = (
+				36731853190C4125007F90AC /* UIImage+Tint.h */,
+				36731854190C4125007F90AC /* UIImage+Tint.m */,
+				36731841190C3DEF007F90AC /* MLPicture.h */,
+				36731842190C3DEF007F90AC /* MLPicture.m */,
+				36731843190C3DEF007F90AC /* MLPictureBroswer.bundle */,
+				36731844190C3DEF007F90AC /* MLPictureBrowser.h */,
+				36731845190C3DEF007F90AC /* MLPictureBrowser.m */,
+				36731846190C3DEF007F90AC /* MLPictureBrowserCell.h */,
+				36731847190C3DEF007F90AC /* MLPictureBrowserCell.m */,
+			);
+			path = MLPictureBroswer;
+			sourceTree = "<group>";
+		};
+		3673184C190C3DF7007F90AC /* MLBroadcastView */ = {
+			isa = PBXGroup;
+			children = (
+				3673184D190C3DF7007F90AC /* MLBroadcastView.h */,
+				3673184E190C3DF7007F90AC /* MLBroadcastView.m */,
+				3673184F190C3DF7007F90AC /* MLBroadcastViewCell.h */,
+				36731850190C3DF7007F90AC /* MLBroadcastViewCell.m */,
+			);
+			path = MLBroadcastView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3673183A190C3DDD007F90AC /* Build configuration list for PBXNativeTarget "MLPictureBroswer" */;
 			buildPhases = (
+				300DC1B3F12240CDB867B00B /* Check Pods Manifest.lock */,
 				36731804190C3DDD007F90AC /* Sources */,
 				36731805190C3DDD007F90AC /* Frameworks */,
 				36731806190C3DDD007F90AC /* Resources */,
+				DF55F5CD9AB444B3BA2FDC70 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -228,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36731849190C3DEF007F90AC /* MLPictureBroswer.bundle in Resources */,
 				36731824190C3DDD007F90AC /* Images.xcassets in Resources */,
 				36731816190C3DDD007F90AC /* InfoPlist.strings in Resources */,
 				3673181F190C3DDD007F90AC /* Main.storyboard in Resources */,
@@ -244,14 +302,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		300DC1B3F12240CDB867B00B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DF55F5CD9AB444B3BA2FDC70 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		36731804190C3DDD007F90AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36731855190C4125007F90AC /* UIImage+Tint.m in Sources */,
 				36731822190C3DDD007F90AC /* ViewController.m in Sources */,
 				3673181C190C3DDD007F90AC /* AppDelegate.m in Sources */,
+				3673184A190C3DEF007F90AC /* MLPictureBrowser.m in Sources */,
 				36731818190C3DDD007F90AC /* main.m in Sources */,
+				3673184B190C3DEF007F90AC /* MLPictureBrowserCell.m in Sources */,
+				36731848190C3DEF007F90AC /* MLPicture.m in Sources */,
+				36731851190C3DF7007F90AC /* MLBroadcastView.m in Sources */,
+				36731852190C3DF7007F90AC /* MLBroadcastViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +470,7 @@
 		};
 		3673183B190C3DDD007F90AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C971941F8ADC4D388BDFB970 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -386,6 +484,7 @@
 		};
 		3673183C190C3DDD007F90AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C971941F8ADC4D388BDFB970 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -456,6 +555,7 @@
 				3673183C190C3DDD007F90AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3673183D190C3DDD007F90AC /* Build configuration list for PBXNativeTarget "MLPictureBroswerTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +564,7 @@
 				3673183F190C3DDD007F90AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
