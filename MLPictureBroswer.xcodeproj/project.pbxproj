@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		20EB3204F5104DC7AFCA12D2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 510E70A100B2415395A9A185 /* libPods.a */; };
+		360BE2581988F4CB0091B7C4 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 360BE2571988F4CB0091B7C4 /* Podfile */; };
 		3673180C190C3DDD007F90AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3673180B190C3DDD007F90AC /* Foundation.framework */; };
 		3673180E190C3DDD007F90AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3673180D190C3DDD007F90AC /* CoreGraphics.framework */; };
 		36731810190C3DDD007F90AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3673180F190C3DDD007F90AC /* UIKit.framework */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		360BE2571988F4CB0091B7C4 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		36731808190C3DDD007F90AC /* MLPictureBroswer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLPictureBroswer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3673180B190C3DDD007F90AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3673180D190C3DDD007F90AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -106,6 +108,7 @@
 		367317FF190C3DDD007F90AC = {
 			isa = PBXGroup;
 			children = (
+				360BE2571988F4CB0091B7C4 /* Podfile */,
 				36731811190C3DDD007F90AC /* MLPictureBroswer */,
 				36731830190C3DDD007F90AC /* MLPictureBroswerTests */,
 				3673180A190C3DDD007F90AC /* Frameworks */,
@@ -285,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				360BE2581988F4CB0091B7C4 /* Podfile in Resources */,
 				36731849190C3DEF007F90AC /* MLPictureBroswer.bundle in Resources */,
 				36731824190C3DDD007F90AC /* Images.xcassets in Resources */,
 				36731816190C3DDD007F90AC /* InfoPlist.strings in Resources */,
