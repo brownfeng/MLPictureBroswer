@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20EB3204F5104DC7AFCA12D2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 510E70A100B2415395A9A185 /* libPods.a */; };
 		360BE2581988F4CB0091B7C4 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 360BE2571988F4CB0091B7C4 /* Podfile */; };
 		3673180C190C3DDD007F90AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3673180B190C3DDD007F90AC /* Foundation.framework */; };
 		3673180E190C3DDD007F90AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3673180D190C3DDD007F90AC /* CoreGraphics.framework */; };
@@ -30,6 +29,7 @@
 		36731851190C3DF7007F90AC /* MLBroadcastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3673184E190C3DF7007F90AC /* MLBroadcastView.m */; };
 		36731852190C3DF7007F90AC /* MLBroadcastViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36731850190C3DF7007F90AC /* MLBroadcastViewCell.m */; };
 		36731855190C4125007F90AC /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = 36731854190C4125007F90AC /* UIImage+Tint.m */; };
+		7B8EEF3AB793202F994A86F8 /* libPods-MLPictureBroswer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F008A4605B5FE031462CD408 /* libPods-MLPictureBroswer.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2AF42D8870A123EBFF3385C2 /* Pods-MLPictureBroswer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLPictureBroswer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MLPictureBroswer/Pods-MLPictureBroswer.debug.xcconfig"; sourceTree = "<group>"; };
 		360BE2571988F4CB0091B7C4 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		36731808190C3DDD007F90AC /* MLPictureBroswer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLPictureBroswer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3673180B190C3DDD007F90AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -77,7 +78,8 @@
 		36731853190C4125007F90AC /* UIImage+Tint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tint.h"; sourceTree = "<group>"; };
 		36731854190C4125007F90AC /* UIImage+Tint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tint.m"; sourceTree = "<group>"; };
 		510E70A100B2415395A9A185 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C971941F8ADC4D388BDFB970 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		BF3B61093AE33A172287AD2E /* Pods-MLPictureBroswer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLPictureBroswer.release.xcconfig"; path = "Pods/Target Support Files/Pods-MLPictureBroswer/Pods-MLPictureBroswer.release.xcconfig"; sourceTree = "<group>"; };
+		F008A4605B5FE031462CD408 /* libPods-MLPictureBroswer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MLPictureBroswer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +90,7 @@
 				3673180E190C3DDD007F90AC /* CoreGraphics.framework in Frameworks */,
 				36731810190C3DDD007F90AC /* UIKit.framework in Frameworks */,
 				3673180C190C3DDD007F90AC /* Foundation.framework in Frameworks */,
-				20EB3204F5104DC7AFCA12D2 /* libPods.a in Frameworks */,
+				7B8EEF3AB793202F994A86F8 /* libPods-MLPictureBroswer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,7 +115,7 @@
 				36731830190C3DDD007F90AC /* MLPictureBroswerTests */,
 				3673180A190C3DDD007F90AC /* Frameworks */,
 				36731809190C3DDD007F90AC /* Products */,
-				C971941F8ADC4D388BDFB970 /* Pods.xcconfig */,
+				D0EF70966D012E707DF17245 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +136,7 @@
 				3673180F190C3DDD007F90AC /* UIKit.framework */,
 				3673182A190C3DDD007F90AC /* XCTest.framework */,
 				510E70A100B2415395A9A185 /* libPods.a */,
+				F008A4605B5FE031462CD408 /* libPods-MLPictureBroswer.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -210,6 +213,15 @@
 			path = MLBroadcastView;
 			sourceTree = "<group>";
 		};
+		D0EF70966D012E707DF17245 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AF42D8870A123EBFF3385C2 /* Pods-MLPictureBroswer.debug.xcconfig */,
+				BF3B61093AE33A172287AD2E /* Pods-MLPictureBroswer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -217,11 +229,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3673183A190C3DDD007F90AC /* Build configuration list for PBXNativeTarget "MLPictureBroswer" */;
 			buildPhases = (
-				300DC1B3F12240CDB867B00B /* Check Pods Manifest.lock */,
+				7EFACC9B8D94A4E91A6E6203 /* [CP] Check Pods Manifest.lock */,
 				36731804190C3DDD007F90AC /* Sources */,
 				36731805190C3DDD007F90AC /* Frameworks */,
 				36731806190C3DDD007F90AC /* Resources */,
-				DF55F5CD9AB444B3BA2FDC70 /* Copy Pods Resources */,
+				DF55F5CD9AB444B3BA2FDC70 /* [CP] Copy Pods Resources */,
+				F026492E5DBC466CA656EFB5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -307,14 +320,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		300DC1B3F12240CDB867B00B /* Check Pods Manifest.lock */ = {
+		7EFACC9B8D94A4E91A6E6203 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,19 +335,34 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		DF55F5CD9AB444B3BA2FDC70 /* Copy Pods Resources */ = {
+		DF55F5CD9AB444B3BA2FDC70 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MLPictureBroswer/Pods-MLPictureBroswer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F026492E5DBC466CA656EFB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MLPictureBroswer/Pods-MLPictureBroswer-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -474,7 +502,7 @@
 		};
 		3673183B190C3DDD007F90AC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C971941F8ADC4D388BDFB970 /* Pods.xcconfig */;
+			baseConfigurationReference = 2AF42D8870A123EBFF3385C2 /* Pods-MLPictureBroswer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -488,7 +516,7 @@
 		};
 		3673183C190C3DDD007F90AC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C971941F8ADC4D388BDFB970 /* Pods.xcconfig */;
+			baseConfigurationReference = BF3B61093AE33A172287AD2E /* Pods-MLPictureBroswer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

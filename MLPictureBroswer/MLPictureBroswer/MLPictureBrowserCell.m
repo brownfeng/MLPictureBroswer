@@ -239,7 +239,7 @@
 {
     [self resetZoomScale];
     self.imageView.image = nil;
-    [self.imageView cancelImageRequestOperation];
+    [self.imageView cancelImageDownloadTask];
     
     self.tipsLabel.text = @"加载网络图片失败";
     self.tipsLabel.layer.opacity = .0f;
